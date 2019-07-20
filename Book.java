@@ -15,4 +15,14 @@ public class Book{
 	return bookId;
 	}
 
+
+	public void setTitle(String title){
+
+         this.title=title;
+	}
+
+	public void getTitile(String title){
+	return title;
+	}
+
 }
