@@ -5,4 +5,14 @@ public class Book{
 	private String author;
 	private float price;
 
+
+	public void setBookId(int bookId){
+
+         this.bookId=bookId;
+	}
+
+	public void getBookId(int bookId){
+	return bookId;
+	}
+
 }
